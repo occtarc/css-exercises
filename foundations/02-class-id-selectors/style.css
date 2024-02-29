@@ -1,0 +1,16 @@
+.impares{
+    background-color: rgb(240,57,77);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+.impares#fonts{
+    font-size: 24px;
+}
+#blue-text{
+    color:rgb(0,0,200);
+    font-size: 36px;
+}
+#bold-text{
+    background-color: rgb(50,240,70);
+    font-size: 24px;
+    font-weight: bold;
+}
