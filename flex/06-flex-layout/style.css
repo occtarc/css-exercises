@@ -25,3 +25,51 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* ESTILOS PROPIOS */
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  color: #444;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap:16px;
+}
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.content button{
+  cursor: pointer;
+  padding: 8px;
+}
+
+.footer{
+  padding: 16px;
+  display:flex;
+  justify-content: space-between;
+  background-color: #ddd;
+}
+
